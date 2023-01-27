@@ -1,0 +1,57 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "description": "Avengers: Endgame",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+      "location": "BROOKLYN",
+      "isFavorite": true,
+      "faVourite": []
+    },
+    {
+      "id": 2,
+      "description": "Alien Spa",
+      "image": "https://rickandmortyapi.com/api/character/avatar/732.jpeg",
+      "location": "Earth",
+      "isFavorite": true,
+      "faVourite": []
+    },
+    {
+      "id": 3,
+      "description": "Rick Sanchez",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      "location": "Earth (Replacement Dimension)",
+      "faVourite": []
+    },
+    {
+      "id": 4,
+      "description": "Captain Marvel Outrage",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjg2ZTM3OTgtY2ExMS00OGM4LTg3NDEtNjQ0MjJiZDFmMGFkXkEyXkFqcGdeQXVyMDY3OTcyOQ@@._V1_SX300.jpg",
+      "location": "Vers",
+      "isFavorite": true,
+      "faVourite": []
+    },
+    {
+      "id": 5,
+      "description": "Manos: The Hands Of Fate",
+      "image": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg",
+      "location": "Greenpoint",
+      "faVourite": []
+    },
+    {
+      "id": 6,
+      "description": "Jerry smith",
+      "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+      "location": "Bay Ridge",
+      "faVourite": []
+    },
+    {
+      "id": 7,
+      "description": "The Killer Shrewa",
+      "image": "https://www.gstatic.com/tv/thumb/v22vodart/1466/p1466_v_v8_ab.jpg",
+      "location": "East Flatbush",
+      "isFavorite": true,
+      "faVourite": []
+    }
+  ]
+}
