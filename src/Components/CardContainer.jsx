@@ -1,25 +1,36 @@
 import React,{useEffect,useState} from "react";
-import CardLayout from "./CardLayout";
+import "./style.css"
+import CardList from "./CardList";
+import Header from "./Header";
 
-function CardContainer() {
-  const [cardsData, setCardsData] = useState([]);
+function CardContainer( ){
+  // const [cardsData, setCardsData] = useState([]);
+    // must set these states up here in App because two different child 
+  // components need access to them
+  const [cards,setCards] =useState ([])
+  const [searchInput ,setSearchInput]=useState( "")
 
-  async function fetchData() {
-    fetch(`https://rickandmortyapi.com/api/character?page=${Math.floor(Math.random() * 41)}`)
-      .then((response) => response.json())
-      .then((data) => {
-        setCardsData(data.results);
-      });
-  }
+  useEffect (() => {
+    fetch("http://localhost:8001/cards")
+    .then(res => res.json())
+    .then (cardsdata => setCards (cardsdata))
+  },[])
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  const searchResults =cards.filter ((card) => {
+    if (searchInput === "") return true
+
+    return card.description.toLowerCase ().includes 
+     (searchInput.toLowerCase ())
+  })
 
   return (
-    <CardLayout data ={cardsData}/>
+    <div className="cardContainer">
+            <Header 
+        searchInput={searchInput} 
+        setSearchInput={setSearchInput} />
+      < CardList
+        searchResults={searchResults} />
+    </div>
   );
 }
-
-
 export default CardContainer;
