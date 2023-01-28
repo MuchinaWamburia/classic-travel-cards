@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from "react";
-import "./style.css"
+// import "./style.css"
 import CardList from "./CardList";
 import Header from "./Header";
 
