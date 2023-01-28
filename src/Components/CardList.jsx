@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css"
+// import "./style.css"
 import CardLayout from "./CardLayout"
 
 //   props) {
@@ -19,6 +19,7 @@ function CardList ( {searchResults}){
     return < CardLayout  description={card.description} 
     image={card.image} 
     location={card.location}
+    info={card.info}
     card={card} 
     key={card.id}/>
   })

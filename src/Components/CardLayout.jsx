@@ -1,8 +1,8 @@
 import {React, useEffect,useState}from "react";
-import './style.css'
+// import './style.css'
 
 // take in the data as props and render the cards with that data in a wrapper 
-function CardLayout ({location,image,description,card}) {
+function CardLayout ({location,image,description,info,card}) {
   // const [cardsData, setCardsData] = useState([]);
 const [isFavourite,setIsFavourite] =useState([]);
 
@@ -19,6 +19,7 @@ function handleDelete(event,card) {
   })
 
   event.target.parentElement.parentElement.remove ()
+
 }
 
 useEffect(() => {
@@ -33,28 +34,40 @@ useEffect(() => {
 },[isFavourite,card.id])
 
 return (
-  <li className="card">
-  <div className="image">
+  <div className="cardLayout">
+<div class="ui link cards">
+  <div class="card">
+    <div class="content">
+  <div className="image" >
     <span className="price">$0</span>
 
-    <img src={image} alt={description} />
+    <img src={image} alt={description}  title={info}/>
   </div>
   <div className="details">
   {isFavourite ? (
       <button 
-        onClick={() => handleLikeClick(card)} 
-        className="emoji-button favorite active">★</button>
+        onClick={() => handleLikeClick(card)} >
+       <i  className="icon large red heart" title="Liked"/></button>
     ) : (
       <button 
-      onClick={() => handleLikeClick(card)} 
-      className="emoji-button favorite"></button>
+      onClick={() => handleLikeClick(card)}> 
+     <i  className="heart outline icon" title="Like" /></button>
+    //  <i class="heart outline icon"></i>
   )}
 
 <strong>{description}</strong>
     <span> · {location}</span>
-    <button onClick={(e) => handleDelete(e, card)} className="emoji-button delete">🗑</button>
+    <span> . { }</span>
+    <button onClick={(e) => handleDelete(e, card)}>
+      <i className=" icon trash" aria-hidden="true"/>
+    </button>
+    
   </div>
-</li>
+</div>
+</div>
+</div>
+</div>
+
 );
 
     }
