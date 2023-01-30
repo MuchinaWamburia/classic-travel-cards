@@ -44,7 +44,7 @@
       "description": "Copenhagen",
       "image": "https://imageio.forbes.com/specials-images/dam/imageserve/1171155692/960x0.jpg?format=jpg&width=960",
       "location": "Denmark",
-      "faVourite": true
+      "faVourite": []
     },
     {
       "id": 7,
