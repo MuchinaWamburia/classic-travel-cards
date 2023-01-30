@@ -14,6 +14,7 @@
       "description": "Jaipur",
       "image": "https://imageio.forbes.com/specials-images/dam/imageserve/1153530085/960x0.jpg?format=jpg&width=960",
       "location": "India",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "isFavorite": true,
       "faVourite": []
     },
@@ -21,6 +22,7 @@
       "id": 3,
       "description": "Tokyo",
       "image": "https://imageio.forbes.com/blogs-images/laurabegleybloom/files/2019/09/Tokyo-skyline-from-Tobu-Levant-Hotel-Photo-by-Jonathan-Bloom-1200x801.jpg?format=jpg&width=960",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "location": "Japan",
       "faVourite": []
     },
@@ -29,6 +31,7 @@
       "description": "London",
       "image": "https://imageio.forbes.com/specials-images/dam/imageserve/594409341/960x0.jpg?format=jpg&width=960",
       "location": "Englang",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "isFavorite": true,
       "faVourite": []
     },
@@ -37,6 +40,7 @@
       "description": "Barbabos",
       "image": "https://imageio.forbes.com/specials-images/dam/imageserve/1166843471/960x0.jpg?format=jpg&width=960",
       "location": "Carribbean",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "faVourite": []
     },
     {
@@ -44,6 +48,7 @@
       "description": "Copenhagen",
       "image": "https://imageio.forbes.com/specials-images/dam/imageserve/1171155692/960x0.jpg?format=jpg&width=960",
       "location": "Denmark",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "faVourite": []
     },
     {
@@ -51,6 +56,7 @@
       "description": "The Killer ",
       "image": "https://www.gstatic.com/tv/thumb/v22vodart/1466/p1466_v_v8_ab.jpg",
       "location": "East Flatbush",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "isFavorite": true,
       "faVourite": []
     },
@@ -59,6 +65,7 @@
       "description": "Bo Kaap",
       "image": "https://imageio.forbes.com/specials-images/dam/imageserve/1139828965/960x0.jpg?format=jpg&width=960",
       "location": "SouthAfrica",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "isFavorite": "",
       "faVourite": []
     },
@@ -67,6 +74,7 @@
       "description": "Bali",
       "image": "https://imageio.forbes.com/specials-images/dam/imageserve/1171238184/960x0.jpg?format=jpg&width=960",
       "location": "Indonesia",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "isFavorite": "",
       "faVourite": []
     },
@@ -75,6 +83,7 @@
       "description": "Marrakesh",
       "image": "https://imageio.forbes.com/specials-images/dam/imageserve/1166259909/960x0.jpg?format=jpg&width=960",
       "location": "Morroco",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "isFavorite": "",
       "faVourite": []
     },
@@ -83,6 +92,7 @@
       "description": "Paris",
       "image": "https://imageio.forbes.com/specials-images/dam/imageserve/742358741/960x0.jpg?format=jpg&width=960",
       "location": "",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "isFavorite": "",
       "faVourite": []
     },
@@ -91,6 +101,7 @@
       "description": "BoraBora",
       "image": "https://imageio.forbes.com/specials-images/dam/imageserve/1141969923/960x0.jpg?format=jpg&width=960",
       "location": "Polynesia",
+      "info": "Famous for its skylines and vibrant food scene, what most people don’t know is that 70% of Hong Kong is mountains and lush parks. Colorful playgrounds and sci-fi apartment blocks give HK an enviable edge.",
       "isFavorite": "",
       "faVourite": []
     }
